@@ -1,11 +1,10 @@
-import java.util.*;
+import java.util.Scanner;
 
-public class pattern2 {
+public class pattern5 {
     static void pattern(int n) {
-        int i, j;
-        for (i = 0; i < n; i++) {
-            for (j = 0; j <= i ; j++) {
-                System.out.print("*");
+        for (int i = n; i >= 0; i--) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print("* ");
             }
             System.out.println();
         }
@@ -18,3 +17,8 @@ public class pattern2 {
         sc.close();
     }
 }
+
+
+
+
+
